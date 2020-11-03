@@ -1,0 +1,11 @@
+[package]
+name = "icon-generator"
+version = "0.1.0"
+authors = ["SleepyPet"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+imageproc = "0.21.0"
+image = "0.23.10"
