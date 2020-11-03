@@ -1,6 +1,6 @@
 use std::{fs};
 use std::path::Path;
-use image::{Rgb, RgbImage};
+use image::{RgbaImage, Rgba};
 use imageproc::drawing::draw_filled_rect_mut;
 use imageproc::rect::Rect;
 
@@ -99,21 +99,21 @@ fn main() {
     ];
 
     let colors = [
-        Rgb([255, 51, 51]),
-        Rgb([34, 255, 34]),
-        Rgb([34, 153, 255]),
-        Rgb([68, 238, 238]),
-        Rgb([238, 51, 238]),
-        Rgb([238, 238, 51]),
-        Rgb([255, 145, 0]),
-        Rgb([153, 153, 153]),
+        Rgba([255, 51, 51, 255]),
+        Rgba([34, 255, 34, 255]),
+        Rgba([34, 153, 255, 255]),
+        Rgba([68, 238, 238, 255]),
+        Rgba([238, 51, 238, 255]),
+        Rgba([238, 238, 51, 255]),
+        Rgba([255, 145, 0, 255]),
+        Rgba([153, 153, 153, 255]),
     ];
 
     fs::create_dir_all("output").unwrap();
 
     for (pattern_index, pattern) in patterns.iter().enumerate() {
         for (color_index, color) in colors.iter().enumerate() {
-            let mut image = RgbImage::new(16, 16);
+            let mut image = RgbaImage::new(16, 16);
 
             for (y, line) in pattern.iter().enumerate() {
                 let mut bitmask = 32768; // 16th bit set to start from the left.
@@ -126,7 +126,7 @@ fn main() {
                 }
             }
 
-            let file_name = format!("output/icon_{}_{}.png", pattern_index, color_index);
+            let file_name = format!("output/icon_{}_{}.png", pattern_index + 1, color_index + 1);
             let path = Path::new(&file_name);
             image.save(path).unwrap();
         }
