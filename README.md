@@ -12,6 +12,14 @@
 ![Icon 1, Color 6](/output/icon-1/color-6.png)
 ![Icon 1, Color 7](/output/icon-1/color-7.png)
 ![Icon 1, Color 8](/output/icon-1/color-8.png)
+![Icon 1, Color 9](/output/icon-1/color-9.png)
+![Icon 1, Color 10](/output/icon-1/color-10.png)
+![Icon 1, Color 11](/output/icon-1/color-11.png)
+![Icon 1, Color 12](/output/icon-1/color-12.png)
+![Icon 1, Color 13](/output/icon-1/color-13.png)
+![Icon 1, Color 14](/output/icon-1/color-14.png)
+![Icon 1, Color 15](/output/icon-1/color-15.png)
+![Icon 1, Color 16](/output/icon-1/color-16.png)
 
 ### Pattern 2
 
@@ -23,6 +31,14 @@
 ![Icon 2, Color 6](/output/icon-2/color-6.png)
 ![Icon 2, Color 7](/output/icon-2/color-7.png)
 ![Icon 2, Color 8](/output/icon-2/color-8.png)
+![Icon 2, Color 9](/output/icon-2/color-9.png)
+![Icon 2, Color 10](/output/icon-2/color-10.png)
+![Icon 2, Color 11](/output/icon-2/color-11.png)
+![Icon 2, Color 12](/output/icon-2/color-12.png)
+![Icon 2, Color 13](/output/icon-2/color-13.png)
+![Icon 2, Color 14](/output/icon-2/color-14.png)
+![Icon 2, Color 15](/output/icon-2/color-15.png)
+![Icon 2, Color 16](/output/icon-2/color-16.png)
 
 ### Pattern 3
 
@@ -34,6 +50,14 @@
 ![Icon 3, Color 6](/output/icon-3/color-6.png)
 ![Icon 3, Color 7](/output/icon-3/color-7.png)
 ![Icon 3, Color 8](/output/icon-3/color-8.png)
+![Icon 3, Color 9](/output/icon-3/color-9.png)
+![Icon 3, Color 10](/output/icon-3/color-10.png)
+![Icon 3, Color 11](/output/icon-3/color-11.png)
+![Icon 3, Color 12](/output/icon-3/color-12.png)
+![Icon 3, Color 13](/output/icon-3/color-13.png)
+![Icon 3, Color 14](/output/icon-3/color-14.png)
+![Icon 3, Color 15](/output/icon-3/color-15.png)
+![Icon 3, Color 16](/output/icon-3/color-16.png)
 
 ### Pattern 4
 
@@ -45,6 +69,14 @@
 ![Icon 4, Color 6](/output/icon-4/color-6.png)
 ![Icon 4, Color 7](/output/icon-4/color-7.png)
 ![Icon 4, Color 8](/output/icon-4/color-8.png)
+![Icon 4, Color 9](/output/icon-4/color-9.png)
+![Icon 4, Color 10](/output/icon-4/color-10.png)
+![Icon 4, Color 11](/output/icon-4/color-11.png)
+![Icon 4, Color 12](/output/icon-4/color-12.png)
+![Icon 4, Color 13](/output/icon-4/color-13.png)
+![Icon 4, Color 14](/output/icon-4/color-14.png)
+![Icon 4, Color 15](/output/icon-4/color-15.png)
+![Icon 4, Color 16](/output/icon-4/color-16.png)
 
 ### Pattern 5
 
@@ -56,6 +88,14 @@
 ![Icon 5, Color 6](/output/icon-5/color-6.png)
 ![Icon 5, Color 7](/output/icon-5/color-7.png)
 ![Icon 5, Color 8](/output/icon-5/color-8.png)
+![Icon 5, Color 9](/output/icon-5/color-9.png)
+![Icon 5, Color 10](/output/icon-5/color-10.png)
+![Icon 5, Color 11](/output/icon-5/color-11.png)
+![Icon 5, Color 12](/output/icon-5/color-12.png)
+![Icon 5, Color 13](/output/icon-5/color-13.png)
+![Icon 5, Color 14](/output/icon-5/color-14.png)
+![Icon 5, Color 15](/output/icon-5/color-15.png)
+![Icon 5, Color 16](/output/icon-5/color-16.png)
 
 ### Pattern 6
 
@@ -67,6 +107,14 @@
 ![Icon 6, Color 6](/output/icon-6/color-6.png)
 ![Icon 6, Color 7](/output/icon-6/color-7.png)
 ![Icon 6, Color 8](/output/icon-6/color-8.png)
+![Icon 6, Color 9](/output/icon-6/color-9.png)
+![Icon 6, Color 10](/output/icon-6/color-10.png)
+![Icon 6, Color 11](/output/icon-6/color-11.png)
+![Icon 6, Color 12](/output/icon-6/color-12.png)
+![Icon 6, Color 13](/output/icon-6/color-13.png)
+![Icon 6, Color 14](/output/icon-6/color-14.png)
+![Icon 6, Color 15](/output/icon-6/color-15.png)
+![Icon 6, Color 16](/output/icon-6/color-16.png)
 
 ### Pattern 7
 
@@ -78,6 +126,14 @@
 ![Icon 7, Color 6](/output/icon-7/color-6.png)
 ![Icon 7, Color 7](/output/icon-7/color-7.png)
 ![Icon 7, Color 8](/output/icon-7/color-8.png)
+![Icon 7, Color 9](/output/icon-7/color-9.png)
+![Icon 7, Color 10](/output/icon-7/color-10.png)
+![Icon 7, Color 11](/output/icon-7/color-11.png)
+![Icon 7, Color 12](/output/icon-7/color-12.png)
+![Icon 7, Color 13](/output/icon-7/color-13.png)
+![Icon 7, Color 14](/output/icon-7/color-14.png)
+![Icon 7, Color 15](/output/icon-7/color-15.png)
+![Icon 7, Color 16](/output/icon-7/color-16.png)
 
 ### Pattern 8
 
@@ -89,6 +145,14 @@
 ![Icon 8, Color 6](/output/icon-8/color-6.png)
 ![Icon 8, Color 7](/output/icon-8/color-7.png)
 ![Icon 8, Color 8](/output/icon-8/color-8.png)
+![Icon 8, Color 9](/output/icon-8/color-9.png)
+![Icon 8, Color 10](/output/icon-8/color-10.png)
+![Icon 8, Color 11](/output/icon-8/color-11.png)
+![Icon 8, Color 12](/output/icon-8/color-12.png)
+![Icon 8, Color 13](/output/icon-8/color-13.png)
+![Icon 8, Color 14](/output/icon-8/color-14.png)
+![Icon 8, Color 15](/output/icon-8/color-15.png)
+![Icon 8, Color 16](/output/icon-8/color-16.png)
 
 ### Pattern 9
 
@@ -100,3 +164,11 @@
 ![Icon 9, Color 6](/output/icon-9/color-6.png)
 ![Icon 9, Color 7](/output/icon-9/color-7.png)
 ![Icon 9, Color 8](/output/icon-9/color-8.png)
+![Icon 9, Color 9](/output/icon-9/color-9.png)
+![Icon 9, Color 10](/output/icon-9/color-10.png)
+![Icon 9, Color 11](/output/icon-9/color-11.png)
+![Icon 9, Color 12](/output/icon-9/color-12.png)
+![Icon 9, Color 13](/output/icon-9/color-13.png)
+![Icon 9, Color 14](/output/icon-9/color-14.png)
+![Icon 9, Color 15](/output/icon-9/color-15.png)
+![Icon 9, Color 16](/output/icon-9/color-16.png)

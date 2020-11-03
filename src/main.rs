@@ -3,6 +3,7 @@ use std::path::Path;
 use image::{RgbaImage, Rgba};
 use imageproc::drawing::draw_filled_rect_mut;
 use imageproc::rect::Rect;
+use hsl::HSL;
 
 fn main() {
     let patterns = [
@@ -170,16 +171,22 @@ fn main() {
         ],
     ];
 
-    let colors = [
-        Rgba([255, 51, 51, 255]),
-        Rgba([34, 255, 34, 255]),
-        Rgba([34, 153, 255, 255]),
-        Rgba([68, 238, 238, 255]),
-        Rgba([238, 51, 238, 255]),
-        Rgba([238, 238, 51, 255]),
-        Rgba([255, 145, 0, 255]),
-        Rgba([153, 153, 153, 255]),
-    ];
+    let saturation = 0.5;
+    let luminosity = 0.5;
+    let mut hue = 0.;
+    let mut colors = Vec::new();
+    for _ in 0..16 {
+        let color = HSL {
+            h: hue,
+            s: saturation,
+            l: luminosity,
+        };
+
+        let rgb = color.to_rgb();
+        colors.push(Rgba([rgb.0, rgb.1, rgb.2, 255]));
+
+        hue += 22.5;
+    }
 
     fs::create_dir_all("output").unwrap();
 
@@ -221,7 +228,7 @@ fn main() {
             }
 
             readme_contents += &format!("\n![Icon {}, Color {}](/{})",
-                                       result.1, result.2, result.0);
+                                        result.1, result.2, result.0);
         }
 
         readme_contents += "\n";
