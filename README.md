@@ -172,3 +172,22 @@
 ![Icon 9, Color 14](/output/icon-9/color-14.png)
 ![Icon 9, Color 15](/output/icon-9/color-15.png)
 ![Icon 9, Color 16](/output/icon-9/color-16.png)
+
+### Pattern 10
+
+![Icon 10, Color 1](/output/icon-10/color-1.png)
+![Icon 10, Color 2](/output/icon-10/color-2.png)
+![Icon 10, Color 3](/output/icon-10/color-3.png)
+![Icon 10, Color 4](/output/icon-10/color-4.png)
+![Icon 10, Color 5](/output/icon-10/color-5.png)
+![Icon 10, Color 6](/output/icon-10/color-6.png)
+![Icon 10, Color 7](/output/icon-10/color-7.png)
+![Icon 10, Color 8](/output/icon-10/color-8.png)
+![Icon 10, Color 9](/output/icon-10/color-9.png)
+![Icon 10, Color 10](/output/icon-10/color-10.png)
+![Icon 10, Color 11](/output/icon-10/color-11.png)
+![Icon 10, Color 12](/output/icon-10/color-12.png)
+![Icon 10, Color 13](/output/icon-10/color-13.png)
+![Icon 10, Color 14](/output/icon-10/color-14.png)
+![Icon 10, Color 15](/output/icon-10/color-15.png)
+![Icon 10, Color 16](/output/icon-10/color-16.png)
