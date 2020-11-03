@@ -129,6 +129,8 @@ fn main() {
 
     fs::create_dir_all("output").unwrap();
 
+    let mut results = Vec::new();
+
     for (pattern_index, pattern) in patterns.iter().enumerate() {
         for (color_index, color) in colors.iter().enumerate() {
             let mut image = RgbaImage::new(16, 16);
@@ -145,9 +147,31 @@ fn main() {
             }
 
             fs::create_dir_all(format!("output/icon-{}", pattern_index + 1)).unwrap();
-            let file_name = format!("output/icon-{}/color-{}.png", pattern_index + 1, color_index + 1);
+            let file_name = format!("output/icon-{}/color-{}.png",
+                                    pattern_index + 1, color_index + 1);
             let path = Path::new(&file_name);
             image.save(path).unwrap();
+
+            results.push((file_name, pattern_index + 1, color_index + 1));
         }
+
+        let mut readme_contents = String::from("# Icon Generator
+
+## All icons:
+
+");
+
+        let mut last_pattern_index = 1;
+        for result in results.iter() {
+            if result.1 != last_pattern_index {
+                readme_contents += "\n";
+                last_pattern_index = result.1;
+            }
+
+            readme_contents += &format!("\n![Icon {}, Color {}](/{})",
+                                       result.1, result.2, result.0);
+        }
+
+        fs::write("README.md", readme_contents).unwrap();
     }
 }

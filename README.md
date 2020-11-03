@@ -1,0 +1,58 @@
+# Icon Generator
+
+## All icons:
+
+
+![Icon 1, Color 1](/output/icon-1/color-1.png)
+![Icon 1, Color 2](/output/icon-1/color-2.png)
+![Icon 1, Color 3](/output/icon-1/color-3.png)
+![Icon 1, Color 4](/output/icon-1/color-4.png)
+![Icon 1, Color 5](/output/icon-1/color-5.png)
+![Icon 1, Color 6](/output/icon-1/color-6.png)
+![Icon 1, Color 7](/output/icon-1/color-7.png)
+![Icon 1, Color 8](/output/icon-1/color-8.png)
+
+![Icon 2, Color 1](/output/icon-2/color-1.png)
+![Icon 2, Color 2](/output/icon-2/color-2.png)
+![Icon 2, Color 3](/output/icon-2/color-3.png)
+![Icon 2, Color 4](/output/icon-2/color-4.png)
+![Icon 2, Color 5](/output/icon-2/color-5.png)
+![Icon 2, Color 6](/output/icon-2/color-6.png)
+![Icon 2, Color 7](/output/icon-2/color-7.png)
+![Icon 2, Color 8](/output/icon-2/color-8.png)
+
+![Icon 3, Color 1](/output/icon-3/color-1.png)
+![Icon 3, Color 2](/output/icon-3/color-2.png)
+![Icon 3, Color 3](/output/icon-3/color-3.png)
+![Icon 3, Color 4](/output/icon-3/color-4.png)
+![Icon 3, Color 5](/output/icon-3/color-5.png)
+![Icon 3, Color 6](/output/icon-3/color-6.png)
+![Icon 3, Color 7](/output/icon-3/color-7.png)
+![Icon 3, Color 8](/output/icon-3/color-8.png)
+
+![Icon 4, Color 1](/output/icon-4/color-1.png)
+![Icon 4, Color 2](/output/icon-4/color-2.png)
+![Icon 4, Color 3](/output/icon-4/color-3.png)
+![Icon 4, Color 4](/output/icon-4/color-4.png)
+![Icon 4, Color 5](/output/icon-4/color-5.png)
+![Icon 4, Color 6](/output/icon-4/color-6.png)
+![Icon 4, Color 7](/output/icon-4/color-7.png)
+![Icon 4, Color 8](/output/icon-4/color-8.png)
+
+![Icon 5, Color 1](/output/icon-5/color-1.png)
+![Icon 5, Color 2](/output/icon-5/color-2.png)
+![Icon 5, Color 3](/output/icon-5/color-3.png)
+![Icon 5, Color 4](/output/icon-5/color-4.png)
+![Icon 5, Color 5](/output/icon-5/color-5.png)
+![Icon 5, Color 6](/output/icon-5/color-6.png)
+![Icon 5, Color 7](/output/icon-5/color-7.png)
+![Icon 5, Color 8](/output/icon-5/color-8.png)
+
+![Icon 6, Color 1](/output/icon-6/color-1.png)
+![Icon 6, Color 2](/output/icon-6/color-2.png)
+![Icon 6, Color 3](/output/icon-6/color-3.png)
+![Icon 6, Color 4](/output/icon-6/color-4.png)
+![Icon 6, Color 5](/output/icon-6/color-5.png)
+![Icon 6, Color 6](/output/icon-6/color-6.png)
+![Icon 6, Color 7](/output/icon-6/color-7.png)
+![Icon 6, Color 8](/output/icon-6/color-8.png)
