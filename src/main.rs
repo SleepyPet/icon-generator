@@ -211,14 +211,12 @@ fn main() {
 
         let mut readme_contents = String::from("# Icon Generator
 
-## All icons:
+## All icons:");
 
-");
-
-        let mut last_pattern_index = 1;
+        let mut last_pattern_index = 0;
         for result in results.iter() {
             if result.1 != last_pattern_index {
-                readme_contents += "\n";
+                readme_contents += &format!("\n\n### Pattern {}\n", result.1);
                 last_pattern_index = result.1;
             }
 
