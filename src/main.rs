@@ -3,9 +3,21 @@ mod patterns;
 use std::fs;
 use std::path::Path;
 use image::{RgbaImage, Rgba};
-use imageproc::drawing::draw_filled_rect_mut;
+use imageproc::drawing::{draw_filled_rect_mut, draw_line_segment_mut};
 use imageproc::rect::Rect;
 use hsl::HSL;
+use rand::Rng;
+use rand::rngs::StdRng;
+use rand::SeedableRng;
+
+enum Shape {
+    Line((f32, f32), (f32, f32))
+}
+
+enum Pattern {
+    Static([i32; 16]),
+    Shapes(Vec<Shape>),
+}
 
 fn main() {
     let colors = generate_colors();
@@ -14,18 +26,50 @@ fn main() {
 
     let mut results = Vec::new();
 
-    for (pattern_index, pattern) in patterns::PATTERNS.iter().enumerate() {
+    let mut patterns = Vec::new();
+    for static_pattern in patterns::STATIC_PATTERNS.iter() {
+        patterns.push(Pattern::Static(*static_pattern));
+    }
+
+    let mut rng = StdRng::seed_from_u64(0);
+
+    for _ in 0..8 {
+        let mut shapes = Vec::new();
+        for _ in 0..3 {
+            shapes.push(Shape::Line(
+                (rng.gen_range(0., 16.), rng.gen_range(0., 16.)),
+                (rng.gen_range(0., 16.), rng.gen_range(0., 16.)),
+            ));
+        }
+
+        patterns.push(Pattern::Shapes(shapes));
+    }
+
+    for (pattern_index, pattern) in patterns.iter().enumerate() {
         for (color_index, color) in colors.iter().enumerate() {
             let mut image = RgbaImage::new(16, 16);
 
-            for (y, line) in pattern.iter().enumerate() {
-                let mut bitmask = 32768; // 16th bit set to start from the left.
-                for x in 0..16 {
-                    if line & bitmask > 0 {
-                        draw_filled_rect_mut(&mut image, Rect::at(x, y as i32)
-                            .of_size(1, 1), *color);
+            match pattern {
+                Pattern::Static(pattern) => {
+                    for (y, line) in pattern.iter().enumerate() {
+                        let mut bitmask = 32768; // 16th bit set to start from the left.
+                        for x in 0..16 {
+                            if line & bitmask > 0 {
+                                draw_filled_rect_mut(&mut image, Rect::at(x, y as i32)
+                                    .of_size(1, 1), *color);
+                            }
+                            bitmask >>= 1;
+                        }
                     }
-                    bitmask >>= 1;
+                }
+                Pattern::Shapes(shapes) => {
+                    for shape in shapes.iter() {
+                        match shape {
+                            Shape::Line(start, end) => {
+                                draw_line_segment_mut(&mut image, *start, *end, *color);
+                            }
+                        }
+                    }
                 }
             }
 

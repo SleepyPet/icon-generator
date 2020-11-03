@@ -196,6 +196,7 @@ dependencies = [
  "hsl",
  "image",
  "imageproc",
+ "rand",
 ]
 
 [[package]]

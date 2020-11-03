@@ -1,4 +1,4 @@
-pub static PATTERNS: &'static [[i32; 16]] = &[
+pub static STATIC_PATTERNS: &'static [[i32; 16]] = &[
     [
         0b1111111111111111,
         0b1111111111111111,
